@@ -3,7 +3,8 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT zsan_test.
+REPORT zsan_test NO STANDARD PAGE HEADING.
+
 DATA: lt_file_content TYPE TABLE OF string.
 
 * Specify the file path on the network file share
